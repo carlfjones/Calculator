@@ -13,25 +13,40 @@ body {
 
 .calc {
     width: 380px;
-    background: rgb(17, 17, 17);
-    padding: 15px;
+
 
     &_display {
         background-color: rgb(116, 12, 12);
-        padding: 15px;
+        padding: 0px 15px;
+        height: 40px;
+        text-align: right;
+        color: blanchedalmond;
+        border-radius: 16px 16px 0px 0px;
+        line-height: 40px;
+
     }
 
     &_actions {
+        background: #171717;
         display: flex;
         flex-wrap: wrap;
-        padding: 15px;
-        justify-content: space-around;
+        padding: 15px 0px;
+        border-radius: 0px 0px 16px 16px;
     }
     button {
-        width: 100px;
+        width: calc(100% / 3 - 30px);
         height: 35px;
         -webkit-appearance: none;
         outline: none;
-        
+        border: none;
+        margin: 5px 15px;
+    }
+
+    .action {
+        color: burlywood;
+        background-color: rgb(105, 0, 0);
+    }
+    .blank {
+        opacity: 0;
     }
 }
