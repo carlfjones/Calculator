@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #f1e8db;
+}
+
+.app {
+  width: 100vh;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calc {
+  width: 380px;
+  background: #111111;
+  padding: 15px;
+}
+
+.calc_display {
+  background-color: #740c0c;
+  padding: 15px;
+}
+
+.calc_actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.calc button {
+  width: 100px;
+  height: 35px;
+  -webkit-appearance: none;
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
