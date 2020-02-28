@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(241, 232, 219);
+    background-color: rgb(235, 221, 201);
 }
 
 .app {
@@ -46,6 +46,11 @@ body {
         color: burlywood;
         background-color: rgb(105, 0, 0);
     }
+
+    .operator {
+        background-color: rgb(236, 206, 206);
+    }
+
     .blank {
         opacity: 0;
     }
