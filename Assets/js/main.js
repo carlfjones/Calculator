@@ -3,6 +3,13 @@ let buttons = document.getElementsByClassName("btn")
 
 for (let i = 0; i < buttons.length; i++) {
     let button = buttons[i];
-    console.log(button);
+
+    switch (key) {
+        case value:
+            
+            break;
     
+        default:
+            break;
+    }
 }
